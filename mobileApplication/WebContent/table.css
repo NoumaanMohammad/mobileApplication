@@ -1,0 +1,73 @@
+/*	Table Styling	*/
+body
+{
+	background:url('https://buddhisteconomics.net/wp-content/uploads/2017/10/hdwp693968124.jpg') no-repeat;
+	background-size:cover;
+}
+
+.table
+{
+	width:700px;
+	margin-left:20%;
+	margin-top:6%;
+	box-sizing:border-box;
+}
+td
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	height:30px;
+	/*background:#9396f5;*/
+	font:normal 100% "Segoe UI";
+	padding-left:2%;
+}
+
+
+th
+{
+	margin:0px;
+	background:#0a010c;
+	padding:0px;
+	box-sizing:border-box;
+	height:35px;
+	color:#fffcfc;
+	font:bold 105% "Segoe UI";
+	bordor:2px solid red;
+}
+/*nth child design*/
+tr:nth-child(odd) {
+    background-color: #330618;
+    color:#f5f7f9;
+}
+
+tr:nth-child(even) {
+    background: #e83939;
+    color:white;
+}
+
+
+tr:hover
+{
+	color:#f5efef;
+	background-color:#ffffff;
+	background-color:rgba(0,0,0,0);
+}
+th,td
+{
+	padding:2%;
+	box-sizing:border-box;
+
+}
+table
+{
+	width:10px;
+	height:10px;
+}
+table:hover
+{
+	width:80%;
+	height:;
+	transition: 0.45s;
+	 transform: translateY(100px) translateX(200px);
+}
